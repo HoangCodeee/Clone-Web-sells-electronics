@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="/css/cart.css">
+</head>
+<body>
+    <div class="cart">
+        <div class="cart-left">
+            <h2>Your Shopping Cart</h2>
+            <ul class="cart-items">
+                <li class="item">
+                    <img src="./img/product/productP/s24-ultra.webp" alt="Product 1">
+                    <span><h4>Samsung Galaxy S24 Ultra - 12GB/512GB - Genuine</h4><strong style="color: red;">29.890.000 ₫</strong></span>
+                </li>
+                <li class="item">
+                    <img src="./img/product/productL/lapHeli16.png" alt="Product 2">
+                    <span><h4>Laptop Acer PREDATOR HELIOS 16 - PH16-71-94N1 i9</h4><strong style="color: red;">117.790.000đ</strong></span>
+                </li>
+                <li class="item">
+                    <img src="./img/product/accessories/acc4.png" alt="Product 3">
+                    <span><h4>Gaming ASUS ROG Delta S Core</h4><strong style="color: red;">2.190.000₫ </strong></span>
+                </li>
+            </ul>
+            <p class="total">Total: <strong style="color: red;">149.870.000 đ</strong></p>
+        </div>
+        <div class="cart-right">
+            <h3>Shipping Information</h3>
+            <form action="#" method="post">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+                <label for="delivery-method">Delivery Method:</label>
+                <select id="delivery-method" name="delivery-method">
+                    <option value="standard">Standard</option>
+                    <option value="express">Express</option>
+                </select><br><br>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="Enter your address" required><br><br>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" placeholder="Enter your city" required><br><br>
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" placeholder="Enter your country" required><br><br>
+                <button type="submit">Submit Order</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
