@@ -1,0 +1,90 @@
+.main{
+    margin-top: 20px;
+    display: grid;
+    padding-left:100px ;
+    padding-right: 100px;
+    grid-template-columns: 25% 75%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFF5FF;
+}
+.regis-container {
+    max-width: 100%;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.regis-container h2 {
+    text-align: center;
+}
+.form-group {
+    width: 600px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 13px;
+} 
+.form-group label {
+    margin-right: 10px;
+    min-width: 140px;
+}
+.form-group input {
+    flex: 1; /* Đảm bảo input căng full width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.main{
+    display: flex;
+}
+.main img{
+    width: 100%;
+}
+.btn-login{
+    padding-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+.regis{
+    width: 80%;
+    height: 45px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #46c7d5;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.regis:hover{
+    background-color: #379fab;
+}
+.split {
+    border-bottom: 2px solid #afafaf;
+    position: relative;
+    height: 23px;
+    margin: 10px 0 20px 0;
+    justify-content: center;
+    display: flex;
+}
+.bt{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+form{height: 550px;}
+  
+    

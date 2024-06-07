@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #DFF5FF;
+}
+.login-container {
+  width: 550px;
+  height: 400px;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-container h2 {
+  text-align: center;
+}
+.form-group {
+  margin-bottom: 15px;
+} 
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input {
+  width: 533px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+  
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.demo{
+  display: flex;
+}
+.demo img{
+  width: 470px;
+  height: 440px;
+}
+.btn-login{
+  padding-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+.btn-facebook{
+  width: 270px;
+  font-size: 15px;
+  height: 50px;
+  color: #fff;
+  background: #4267b2;
+}
+.btn-google{
+  width: 270px;
+  font-size: 15px;
+  height: 50px;
+  color: #fff;
+  background: #4385f5;
+}
+.bt{ 
+  display: grid;
+  grid-template-columns: 49% 49%;
+  gap: 10px;
+}
+.regis{
+  width: 100%;
+  padding: 10px;
+  background-color: #46c7d5;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.regis:hover{
+  background-color: #379fab;
+}
+.split {
+  border-bottom: 2px solid #afafaf;
+  position: relative;
+  height: 23px;
+  margin: 10px 0 20px 0;
+  justify-content: center;
+  display: flex;
+}
+
+  

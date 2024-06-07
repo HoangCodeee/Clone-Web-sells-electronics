@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#DFF5FF;
+}
+
+.cart {
+    width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;;
+    border-radius: 5px;
+    display: flex;
+}
+
+.cart-left,
+.cart-right {
+    flex: 1;
+}
+
+.cart-left {
+    margin-right: 20px; /* Khoảng cách giữa hai phần */
+}
+
+.cart-right {
+    margin-left: 20px; /* Khoảng cách giữa hai phần */
+}
+
+.cart h2 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.item img {
+    width: 100px; /* Điều chỉnh kích thước ảnh nếu cần */
+    height: auto;
+    margin-right: 10px;
+}
+
+.total {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.shipping-info {
+    margin-top: 20px;
+}
+
+.shipping-info h3 {
+    font-size: 18px;
+}
+
+.shipping-info form {
+    margin-top: 10px;
+}
+
+.shipping-info label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.shipping-info input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.shipping-info button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.shipping-info button:hover {
+    background-color: #007bff;
+}
+.cart-right form input,
+.cart-right form select {
+    width: calc(100% - 20px); /* trừ đi khoảng cách với margin 10px ở mỗi phía */
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px; /* thêm border-radius */
+    border: 1px solid #ccc; /* thêm border cho input và select */
+}
+
+.cart-right form button {
+    width: 95%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cart-right form button:hover {
+    background-color: #1578e2;
+}
+
+
